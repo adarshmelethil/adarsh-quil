@@ -8,10 +8,10 @@ var i = (1);
 while(true){
 if((i < count)){
 var last_point = cljs.core.last.call(null,coordinates);
-var G__21879 = cljs.core.conj.call(null,coordinates,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(cljs.core.first.call(null,last_point) + (((cljs.core._EQ_.call(null,(0),cljs.core.mod.call(null,cljs.core.quot.call(null,i,(2)),(2))))?(1):(-1)) * i)),(cljs.core.second.call(null,last_point) + (((cljs.core._EQ_.call(null,(0),cljs.core.mod.call(null,cljs.core.quot.call(null,(i - (1)),(2)),(2))))?(1):(-1)) * i))], null));
-var G__21880 = (i + (1));
-coordinates = G__21879;
-i = G__21880;
+var G__22357 = cljs.core.conj.call(null,coordinates,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(cljs.core.first.call(null,last_point) + (((cljs.core._EQ_.call(null,(0),cljs.core.mod.call(null,cljs.core.quot.call(null,i,(2)),(2))))?(1):(-1)) * i)),(cljs.core.second.call(null,last_point) + (((cljs.core._EQ_.call(null,(0),cljs.core.mod.call(null,cljs.core.quot.call(null,(i - (1)),(2)),(2))))?(1):(-1)) * i))], null));
+var G__22358 = (i + (1));
+coordinates = G__22357;
+i = G__22358;
 continue;
 } else {
 return coordinates;
@@ -33,14 +33,14 @@ return val;
 });
 adarsh_quil.utils.elem_mult = (function adarsh_quil$utils$elem_mult(var_args){
 var args__4736__auto__ = [];
-var len__4730__auto___21884 = arguments.length;
-var i__4731__auto___21885 = (0);
+var len__4730__auto___22362 = arguments.length;
+var i__4731__auto___22363 = (0);
 while(true){
-if((i__4731__auto___21885 < len__4730__auto___21884)){
-args__4736__auto__.push((arguments[i__4731__auto___21885]));
+if((i__4731__auto___22363 < len__4730__auto___22362)){
+args__4736__auto__.push((arguments[i__4731__auto___22363]));
 
-var G__21886 = (i__4731__auto___21885 + (1));
-i__4731__auto___21885 = G__21886;
+var G__22364 = (i__4731__auto___22363 + (1));
+i__4731__auto___22363 = G__22364;
 continue;
 } else {
 }
@@ -52,31 +52,31 @@ return adarsh_quil.utils.elem_mult.cljs$core$IFn$_invoke$arity$variadic((argumen
 });
 
 adarsh_quil.utils.elem_mult.cljs$core$IFn$_invoke$arity$variadic = (function (vec_arr,vals){
-return cljs.core.vec.call(null,cljs.core.map.call(null,(function (p1__21881_SHARP_){
-return cljs.core.apply.call(null,cljs.core._STAR_,cljs.core.cons.call(null,p1__21881_SHARP_,vals));
+return cljs.core.vec.call(null,cljs.core.map.call(null,(function (p1__22359_SHARP_){
+return cljs.core.apply.call(null,cljs.core._STAR_,cljs.core.cons.call(null,p1__22359_SHARP_,vals));
 }),vec_arr));
 });
 
 adarsh_quil.utils.elem_mult.cljs$lang$maxFixedArity = (1);
 
 /** @this {Function} */
-adarsh_quil.utils.elem_mult.cljs$lang$applyTo = (function (seq21882){
-var G__21883 = cljs.core.first.call(null,seq21882);
-var seq21882__$1 = cljs.core.next.call(null,seq21882);
+adarsh_quil.utils.elem_mult.cljs$lang$applyTo = (function (seq22360){
+var G__22361 = cljs.core.first.call(null,seq22360);
+var seq22360__$1 = cljs.core.next.call(null,seq22360);
 var self__4717__auto__ = this;
-return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__21883,seq21882__$1);
+return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__22361,seq22360__$1);
 });
 
 adarsh_quil.utils.elem_add = (function adarsh_quil$utils$elem_add(var_args){
 var args__4736__auto__ = [];
-var len__4730__auto___21890 = arguments.length;
-var i__4731__auto___21891 = (0);
+var len__4730__auto___22368 = arguments.length;
+var i__4731__auto___22369 = (0);
 while(true){
-if((i__4731__auto___21891 < len__4730__auto___21890)){
-args__4736__auto__.push((arguments[i__4731__auto___21891]));
+if((i__4731__auto___22369 < len__4730__auto___22368)){
+args__4736__auto__.push((arguments[i__4731__auto___22369]));
 
-var G__21892 = (i__4731__auto___21891 + (1));
-i__4731__auto___21891 = G__21892;
+var G__22370 = (i__4731__auto___22369 + (1));
+i__4731__auto___22369 = G__22370;
 continue;
 } else {
 }
@@ -88,44 +88,44 @@ return adarsh_quil.utils.elem_add.cljs$core$IFn$_invoke$arity$variadic((argument
 });
 
 adarsh_quil.utils.elem_add.cljs$core$IFn$_invoke$arity$variadic = (function (vec_arr,vals){
-return cljs.core.vec.call(null,cljs.core.map.call(null,(function (p1__21887_SHARP_){
-return cljs.core.apply.call(null,cljs.core._PLUS_,cljs.core.cons.call(null,p1__21887_SHARP_,vals));
+return cljs.core.vec.call(null,cljs.core.map.call(null,(function (p1__22365_SHARP_){
+return cljs.core.apply.call(null,cljs.core._PLUS_,cljs.core.cons.call(null,p1__22365_SHARP_,vals));
 }),vec_arr));
 });
 
 adarsh_quil.utils.elem_add.cljs$lang$maxFixedArity = (1);
 
 /** @this {Function} */
-adarsh_quil.utils.elem_add.cljs$lang$applyTo = (function (seq21888){
-var G__21889 = cljs.core.first.call(null,seq21888);
-var seq21888__$1 = cljs.core.next.call(null,seq21888);
+adarsh_quil.utils.elem_add.cljs$lang$applyTo = (function (seq22366){
+var G__22367 = cljs.core.first.call(null,seq22366);
+var seq22366__$1 = cljs.core.next.call(null,seq22366);
 var self__4717__auto__ = this;
-return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__21889,seq21888__$1);
+return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__22367,seq22366__$1);
 });
 
 adarsh_quil.utils.vec_add = (function adarsh_quil$utils$vec_add(vec1,vec2){
-return cljs.core.vec.call(null,cljs.core.map.call(null,(function (p1__21893_SHARP_,p2__21894_SHARP_){
-return (p1__21893_SHARP_ + p2__21894_SHARP_);
+return cljs.core.vec.call(null,cljs.core.map.call(null,(function (p1__22371_SHARP_,p2__22372_SHARP_){
+return (p1__22371_SHARP_ + p2__22372_SHARP_);
 }),vec1,vec2));
 });
-adarsh_quil.utils.hit_edge_QMARK_ = (function adarsh_quil$utils$hit_edge_QMARK_(p__21895,p__21896,offset){
-var vec__21897 = p__21895;
-var world_width = cljs.core.nth.call(null,vec__21897,(0),null);
-var world_height = cljs.core.nth.call(null,vec__21897,(1),null);
-var vec__21900 = p__21896;
-var x = cljs.core.nth.call(null,vec__21900,(0),null);
-var y = cljs.core.nth.call(null,vec__21900,(1),null);
+adarsh_quil.utils.hit_edge_QMARK_ = (function adarsh_quil$utils$hit_edge_QMARK_(p__22373,p__22374,offset){
+var vec__22375 = p__22373;
+var world_width = cljs.core.nth.call(null,vec__22375,(0),null);
+var world_height = cljs.core.nth.call(null,vec__22375,(1),null);
+var vec__22378 = p__22374;
+var x = cljs.core.nth.call(null,vec__22378,(0),null);
+var y = cljs.core.nth.call(null,vec__22378,(1),null);
 return (!(((((((- offset) <= x)) && ((x <= (offset + world_width))))) && (((((- offset) <= y)) && ((y <= (offset + world_height))))))));
 });
-adarsh_quil.utils.random_point_on_perimeter = (function adarsh_quil$utils$random_point_on_perimeter(p__21903,offset){
-var vec__21904 = p__21903;
-var width = cljs.core.nth.call(null,vec__21904,(0),null);
-var height = cljs.core.nth.call(null,vec__21904,(1),null);
+adarsh_quil.utils.random_point_on_perimeter = (function adarsh_quil$utils$random_point_on_perimeter(p__22381,offset){
+var vec__22382 = p__22381;
+var width = cljs.core.nth.call(null,vec__22382,(0),null);
+var height = cljs.core.nth.call(null,vec__22382,(1),null);
 var nwidth = (offset + width);
 var nheight = (offset + height);
 var lower = (- offset);
-var G__21907 = Math.round(quil.core.random.call(null,(1),(4)));
-switch (G__21907) {
+var G__22385 = Math.round(quil.core.random.call(null,(1),(4)));
+switch (G__22385) {
 case (1):
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [lower,quil.core.random.call(null,lower,nwidth)], null);
 
@@ -143,9 +143,9 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__21907)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__22385)].join('')));
 
 }
 });
 
-//# sourceMappingURL=utils.js.map?rel=1612339712707
+//# sourceMappingURL=utils.js.map?rel=1631323772142
